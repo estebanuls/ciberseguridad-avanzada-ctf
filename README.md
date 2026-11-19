@@ -23,3 +23,9 @@ El desafío de **Wireshark no va**, porque ese lo creé yo para el curso; me toc
 - Los informes están escritos con el proceso real: qué hice, qué comando usé y qué me devolvió.
 - Cada informe cubre lo que pide la pauta: introducción, análisis, herramientas, metodología, evidencias,
   pistas usadas, la flag, el análisis del proceso y la parte ética.
+
+## Uso de IA
+
+Para este trabajo usé una IA como apoyo: me ayudó con comandos específicos e instalaciones puntuales y a
+redactar y ordenar los README e informes. La resolución de cada desafío, las pruebas y las evidencias
+(capturas) las hice yo en el entorno autorizado del curso.
