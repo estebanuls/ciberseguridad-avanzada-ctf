@@ -6,7 +6,7 @@ escucha por la red (en 127.0.0.1, o sea, local), y la idea era conectarse con Ne
 estaba escuchando y "conversar" con él hasta que soltara la flag. La regla era no mirar el código del
 servidor, solo hablarle desde afuera.
 
-## Qué hice
+## Análisis inicial
 El enunciado decía que el servicio estaba en 127.0.0.1, por TCP, en algún puerto entre el 4644 y el 4648.
 Así que lo primero era escanear ese rango para ver cuál estaba abierto, y después conectarme y ver qué me
 respondía. Pensé que, como pasa con muchos servicios, probablemente tuviera un comando tipo "ayuda" para

@@ -7,7 +7,7 @@ clásico error que abre la puerta a la inyección). La idea era aprovechar eso p
 debería verse. Hay una versión "vulnerable" y otra "protegida" para comparar; las flags solo salen en la
 vulnerable.
 
-## Qué hice
+## Análisis inicial
 Levanté el laboratorio con `docker compose up --build -d` y entré a `http://localhost:8080`. Antes de tirar
 nada probé a usar los formularios normal, para ver cómo se comportaban, y después pensé en qué pasaría si
 metía una comilla para "romper" la consulta. Como el propio enunciado hablaba de un recurso no publicado y de

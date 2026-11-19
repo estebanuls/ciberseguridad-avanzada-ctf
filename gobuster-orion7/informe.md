@@ -6,7 +6,7 @@ operador, K. Vidal, dejó recursos escondidos en el servidor antes de irse. La f
 fragmentos** repartidos por el sitio, y se armaba como `FLAG{fragmento1_fragmento2_fragmento3}`. Había que
 resolverlo "desde afuera", sin meterse al contenedor ni abrir la imagen.
 
-## Qué hice
+## Análisis inicial
 Si hay recursos que existen pero no están enlazados en ninguna página, la forma de encontrarlos es la
 **enumeración de directorios**: probar un montón de nombres de rutas con un diccionario y ver cuáles
 responden. Para eso se usa gobuster con el diccionario `common.txt` de SecLists.

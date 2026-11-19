@@ -5,7 +5,7 @@ Había un portal de login ("Ingreso al Sistema") en `http://desafiouls.free.nf`,
 contraseña. La idea era entrar sin tener credenciales válidas y recuperar la flag (formato `CTF{...}`), usando
 Burp Suite como proxy para ver y modificar la petición del login.
 
-## Qué hice
+## Análisis inicial
 Lo primero que pensé es que un login así normalmente arma una consulta SQL con lo que uno escribe, y si no la
 filtran bien se puede romper con una comilla. Las pistas apuntaban justo a eso: una inyección SQL (`' or 1=1-- -`).
 Así que en vez de adivinar la clave, decidí interceptar el POST del login con Burp y cambiar el usuario por la
