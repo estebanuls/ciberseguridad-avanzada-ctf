@@ -15,7 +15,7 @@ El desafío de **Wireshark no va**, porque ese lo creé yo para el curso; me toc
 | ExifTool — Operación Anatidae | ✅ Resuelto | `FLAG{SM-S918B_-29.9027_-71.2520_Adobe Photoshop 25.0 (Windows)}` | [Abrir](exiftool/informe.md) |
 | Gobuster — ORION-7 | ✅ Resuelto | `FLAG{n4d4_3st4_0cult0}` (3 fragmentos) | [Abrir](gobuster-orion7/informe.md) |
 | Inyección SQL — Laboratorio 2 niveles | ✅ Resuelto | `AULA{BUSQUEDA_ALTERADA}` · `AULA{LOGIN_SIN_CLAVE}` | [Abrir](inyeccion-sql/informe.md) |
-| Burp Suite — La FLAG perdida | ⏳ Pendiente (es gráfico) | método listo; falta capturar `CTF{...}` | (se sube cuando esté) |
+| Burp Suite — La FLAG perdida | ✅ Resuelto | `CTF{PHP_SQLi_Byp4ss_M4st3r}` | [Abrir](burp-suite/informe.md) |
 
 ## Cómo está organizado
 
