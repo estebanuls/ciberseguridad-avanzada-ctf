@@ -15,4 +15,4 @@ de un reto con su proceso, los comandos usados y las capturas de evidencia dentr
 
 Para este trabajo usé una IA como apoyo: me ayudó con comandos específicos e instalaciones puntuales y a
 redactar y ordenar los README e informes. La resolución de cada desafío, las pruebas y las evidencias
-(capturas) las hice yo en el entorno autorizado del curso.
+(capturas) las hice yo en el entorno propio y puesto por los desafios.
