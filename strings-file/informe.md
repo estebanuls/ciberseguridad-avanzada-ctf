@@ -5,7 +5,7 @@ Me pasaron un archivo llamado `evidence.bin` con una nota que decía "la extensi
 buscar información descubre qué tienes realmente delante". La idea era averiguar qué tipo de archivo era de
 verdad y, sin ejecutarlo (solo análisis estático), encontrar las 2 flags escondidas adentro.
 
-## Cómo lo encaré
+## Qué hice
 Lo primero que pensé con eso de "la extensión miente" fue no confiar en el `.bin` y ver qué era en realidad.
 Para eso la herramienta de siempre es `file`, que mira la firma del archivo y no la extensión. Después, como
 las flags suelen quedar como texto dentro del binario, se me ocurrió sacar todas las cadenas con `strings` y

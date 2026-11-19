@@ -4,7 +4,7 @@
 Se "filtró" una foto de 3 patos y había sospechas de que sus metadatos estaban manipulados. La tarea era
 revisar el EXIF de la imagen, decidir si era auténtica o no, y armar la flag con los datos que sacara.
 
-## Cómo lo encaré
+## Qué hice
 Una foto de celular normalmente trae un montón de metadatos: marca y modelo del equipo, fecha, ubicación GPS
 y el software con que se guardó. Así que la idea era leer todo eso con `exiftool` y buscar incoherencias
 (por ejemplo, que el software no sea el del celular, o que la fecha no calce).

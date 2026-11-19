@@ -7,7 +7,7 @@ Eran dos retos de romper contraseñas:
 - **Reto 2 (Hashcat):** un hash en `h2.txt` del que había que recuperar la clave **sin diccionario**, por
   fuerza de máscara, sabiendo que cumplía la política "1 mayúscula + 5 minúsculas + 2 dígitos".
 
-## Cómo lo encaré
+## Qué hice
 Para el zip, lo normal es convertir su hash a un formato que John entienda (con `zip2john`) y tirarle el
 diccionario `rockyou.txt`, que trae las claves más comunes. Para el segundo, el hash empezaba con `$6$`, que
 es **sha512crypt**, así que en Hashcat corresponde al modo `-m 1800`; y la política la traduje a la máscara
