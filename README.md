@@ -3,19 +3,6 @@
 Resolución de los desafíos CTF que montaron los distintos grupos del electivo. Cada carpeta tiene el informe
 de un reto con su proceso, los comandos usados y las capturas de evidencia dentro del mismo informe.
 
-El desafío de **Wireshark no va**, porque ese lo creé yo para el curso; me toca resolver los de los demás.
-
-## Estado de los desafíos
-
-| Desafío | Estado | Flag(s) | Informe |
-| --- | --- | --- | --- |
-| file / strings — La evidencia perdida | ✅ Resuelto | `FLAG{ELF_DESCUBIERTO}` · `FLAG{STRINGS_ENCONTRO_LA_EVIDENCIA}` | [Abrir](strings-file/informe.md) |
-| Netcat — El registro perdido | ✅ Resuelto | `FLAG{consulta_el_servicio_2026}` (puerto 4646) | [Abrir](netcat/informe.md) |
-| John the Ripper / Hashcat | ✅ Resuelto | zip: `Panda123` · hash: `Zebras42` | [Abrir](john-hashcat/informe.md) |
-| ExifTool — Operación Anatidae | ✅ Resuelto | `FLAG{SM-S918B_-29.9027_-71.2520_Adobe Photoshop 25.0 (Windows)}` | [Abrir](exiftool/informe.md) |
-| Gobuster — ORION-7 | ✅ Resuelto | `FLAG{n4d4_3st4_0cult0}` (3 fragmentos) | [Abrir](gobuster-orion7/informe.md) |
-| Inyección SQL — Laboratorio 2 niveles | ✅ Resuelto | `AULA{BUSQUEDA_ALTERADA}` · `AULA{LOGIN_SIN_CLAVE}` | [Abrir](inyeccion-sql/informe.md) |
-| Burp Suite — La FLAG perdida | ✅ Resuelto | `CTF{PHP_SQLi_Byp4ss_M4st3r}` | [Abrir](burp-suite/informe.md) |
 
 ## Cómo está organizado
 
